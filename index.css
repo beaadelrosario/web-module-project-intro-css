@@ -1,0 +1,5 @@
+* {
+    box-sizing:border-box;
+    <!-- don't forget to remove these grey boxes-->
+    border:1px solid grey;
+}
