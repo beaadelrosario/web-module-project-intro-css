@@ -1,12 +1,65 @@
 * {
     box-sizing:border-box;
     border:1px solid grey;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
-    font-family:Chelsea Market;
+    font-family: 'Chelsea Market', cursive;
 }
 
-first-section {
-    background-color:pink;
+.first-section {
+    color:white;
+    background-color:#DDB9A3;
+    text-align:center;
+    letter-spacing:2px;
+    border:solid blue;
+    padding:5%;
+    margin: 0 auto;
+}
+
+.parent {
+    display:inline-block;
+    width:60%;
+    margin-left:15%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10% 0;
+}
+
+.plan-box {
+    color:white;
+    background-color:#FF764E;
+    border-radius:6px;
+    padding: 14px 16px;
+}
+
+.learn-box {
+    color:white;
+    background-color:#5ED3EB;
+    border-radius:6px;
+    padding: 14px 16px;
+}
+
+.involved-box {
+    color:white;
+    background-color:#FFCD69;
+    border-radius:6px;
+    padding: 14px 16px;
+}
+
+.parent-bottom {
+    display:inline-block;
+    width:60%;
+    margin-left:15%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10% 0;
+}
+
+footer {
+    padding:5%;
+    margin: 0 auto;
 }
