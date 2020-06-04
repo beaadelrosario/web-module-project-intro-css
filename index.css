@@ -21,7 +21,17 @@ h1 {
 .parent {
     display:inline-block;
     width:60%;
-    margin-left:15%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10% 0;
+}
+
+.parent-bottom {
+    display:inline-block;
+    width:60%;
+    margin:0 auto;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
@@ -49,17 +59,11 @@ h1 {
     padding: 14px 16px;
 }
 
-.parent-bottom {
-    display:inline-block;
-    width:60%;
-    margin-left:15%;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    padding:10% 0;
-}
-
 footer {
     padding:5%;
     margin: 0 auto;
+}
+
+.header-pic {
+    background-image: url(./assets/header_img.jpg); 
 }
